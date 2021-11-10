@@ -4,6 +4,8 @@
     text-decoration: none;
 }
 
+/* scrollbar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,6 +28,8 @@ body{
     height: 720px;
     background: transparent;
 }
+
+/* nav */
 
 .logo a{
     position: relative;
@@ -72,6 +76,8 @@ nav{
     background-color: #3f72af;
 }
 
+/* lokasi */
+
 .maps{
     position: relative;
     margin-top: 490px;
@@ -86,15 +92,26 @@ nav{
     background: transparent;
 }
 
+/* pesan */
+
 .pesan{
     display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top: 50px;
     transform: translate(-50%, -50%);
     background-color: transparent;
     border: 3px solid cyan;
     border-radius: 15px;
+}
+
+
+.pesan tr td{
+    padding: 7px;
+    margin-left: 7px;
+    padding: 15px;
+    color: white;
 }
 
 .pesan tr td input{
@@ -108,11 +125,27 @@ nav{
     color: white;
 }
 
-.pesan tr td{
-    padding: 3px;
-    margin-left: 7px;
-    padding: 15px;
+.pesan tr td textarea{
+    background-color: transparent;
+    border: 1px solid cyan;
     color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.pesan tr td option{
+    background-color: #666;
+    color: black;
+    font-size: 15px;
+}
+
+.pesan tr td select{
+    width: 140px;
+    background-color: transparent;
+    color: white;
+    margin-left: 6px;
+    border: 1px solid cyan;
+    border-radius: 5px;
 }
 
 h1{
@@ -132,6 +165,8 @@ img {
     border: 5px solid #666;
     border-radius: 10px;
 }
+
+/* makanan */
 
 .main1{
     position: absolute;
@@ -217,6 +252,8 @@ img {
     text-align: center;
 }
 
+/* help */
+
 .help{
     background: midnightblue;
     padding: 7px;
@@ -232,6 +269,8 @@ img {
     display: flex;
     justify-content: center;
 }
+
+/* Makanan */
 
 .resep{
     font-size: 20px;
@@ -281,7 +320,7 @@ img {
     color: white;
     position: relative;
     margin-top: -300px;
-    margin-left: 450px;
+    margin-left: 500px;
     margin-right: 500px;
     background: rgb(92, 82, 82);
     border: 2px solid white;
@@ -323,52 +362,6 @@ h3, p{
     display: block;
     height: 200px;
     width: 500px;
-}
-
-.Rizky, .bryan, .christian{
-    color: lightslategray;
-    margin-top: 200px;
-    font-size: 20px;
-    margin-left: 100px;
-}
-
-.nama{
-    color: white;
-    font-size: 30px;
-    text-align: left;
-    padding-left: 100px;
-}
-
-.ig img{
-    width: 120px;
-    height: 120px;
-    border: 0px;
-    margin: 15px;
-}
-
-.wa img{
-    position: relative;
-    width: 90px;
-    height: 90px;
-    border: 0px;
-    margin: 15px;
-    padding-left: 15px;
-}
-
-.rizky tr td{
-    padding: 20px;
-    color: whitesmoke;
-}
-
-.bryan{
-    position: relative;
-    margin-left: 900px;
-    margin-top: -450px;
-}
-
-.christian{
-    margin-left: 400px;
-    margin-top: -5px;
 }
 
 .makanan{
@@ -430,3 +423,80 @@ h3, p{
     display: inline-block;
     text-decoration: underline white;
 }
+
+.submit input{
+    background-color: #3f72af;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    margin-left: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.submit input:hover{
+    cursor: pointer;
+}
+
+/* Contact Us */
+
+.bryan{
+    position: relative;
+    color: lightslategray;
+}
+
+.christian{
+    position: relative;
+    color: lightslategray;
+}
+
+.Rizky{
+    color: lightslategray;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.bryan{
+    color: lightslategray;
+    font-size: 20px;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -430px;
+}
+
+.christian{
+    color: lightslategray;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 500px;
+    position: relative;
+}
+
+
+.nama{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.ig img{
+    width: 120px;
+    height: 120px;
+    border: 0px;
+    margin: 15px;
+}
+
+.wa img{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 0px;
+    margin: 15px;
+    padding-left: 15px;
+}
+
